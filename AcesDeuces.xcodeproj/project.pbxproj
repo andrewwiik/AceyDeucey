@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46C243C71FD603C300CAC716 /* WelcomeScreen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46C243C51FD603C300CAC716 /* WelcomeScreen.cpp */; };
+		46C243CA1FD60A3D00CAC716 /* IntroScreenRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46C243C81FD60A3D00CAC716 /* IntroScreenRenderer.cpp */; };
+		46C9282E1FD0A1A7005F4BC3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46C9282D1FD0A1A7005F4BC3 /* main.cpp */; };
+		46C928361FD0A252005F4BC3 /* Card.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46C928341FD0A252005F4BC3 /* Card.cpp */; };
+		46C928391FD0A58A005F4BC3 /* Hand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46C928371FD0A58A005F4BC3 /* Hand.cpp */; };
+		46C9283C1FD0A9F9005F4BC3 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46C9283A1FD0A9F9005F4BC3 /* Player.cpp */; };
+		46C9283F1FD0BAC0005F4BC3 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46C9283D1FD0BAC0005F4BC3 /* Game.cpp */; };
+		46C928421FD0BAF3005F4BC3 /* DeckManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46C928401FD0BAF3005F4BC3 /* DeckManager.cpp */; };
+		46C928481FD0D1C5005F4BC3 /* FindBetweenRanks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46C928461FD0D1C5005F4BC3 /* FindBetweenRanks.cpp */; };
+		46C9284B1FD0DAB3005F4BC3 /* GameManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46C928491FD0DAB3005F4BC3 /* GameManager.cpp */; };
+		46C928511FD1028F005F4BC3 /* PotManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46C9284F1FD1028F005F4BC3 /* PotManager.cpp */; };
+		46C928541FD10365005F4BC3 /* Bet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46C928521FD10365005F4BC3 /* Bet.cpp */; };
+		46C928661FD1D9B7005F4BC3 /* OddsManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46C928641FD1D9B7005F4BC3 /* OddsManager.cpp */; };
+		46C928691FD1E421005F4BC3 /* Util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46C928671FD1E421005F4BC3 /* Util.cpp */; };
+		46C9286C1FD22AE5005F4BC3 /* LeaderBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46C9286A1FD22AE5005F4BC3 /* LeaderBoard.cpp */; };
+		46C9286F1FD257CA005F4BC3 /* GameRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46C9286D1FD257CA005F4BC3 /* GameRenderer.cpp */; };
+		46C928721FD2722D005F4BC3 /* AIManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46C928701FD2722D005F4BC3 /* AIManager.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		46C928281FD0A1A6005F4BC3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		46C243C51FD603C300CAC716 /* WelcomeScreen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WelcomeScreen.cpp; sourceTree = "<group>"; };
+		46C243C61FD603C300CAC716 /* WelcomeScreen.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WelcomeScreen.hpp; sourceTree = "<group>"; };
+		46C243C81FD60A3D00CAC716 /* IntroScreenRenderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IntroScreenRenderer.cpp; sourceTree = "<group>"; };
+		46C243C91FD60A3D00CAC716 /* IntroScreenRenderer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = IntroScreenRenderer.hpp; sourceTree = "<group>"; };
+		46C9282A1FD0A1A7005F4BC3 /* AcesDeuces */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AcesDeuces; sourceTree = BUILT_PRODUCTS_DIR; };
+		46C9282D1FD0A1A7005F4BC3 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 2; path = main.cpp; sourceTree = "<group>"; };
+		46C928341FD0A252005F4BC3 /* Card.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 2; path = Card.cpp; sourceTree = "<group>"; };
+		46C928351FD0A252005F4BC3 /* Card.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; lineEnding = 2; path = Card.hpp; sourceTree = "<group>"; tabWidth = 4; wrapsLines = 0; };
+		46C928371FD0A58A005F4BC3 /* Hand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 2; path = Hand.cpp; sourceTree = "<group>"; };
+		46C928381FD0A58A005F4BC3 /* Hand.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; lineEnding = 2; path = Hand.hpp; sourceTree = "<group>"; };
+		46C9283A1FD0A9F9005F4BC3 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 2; path = Player.cpp; sourceTree = "<group>"; };
+		46C9283B1FD0A9F9005F4BC3 /* Player.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; lineEnding = 2; path = Player.hpp; sourceTree = "<group>"; };
+		46C9283D1FD0BAC0005F4BC3 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 2; path = Game.cpp; sourceTree = "<group>"; };
+		46C9283E1FD0BAC0005F4BC3 /* Game.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; lineEnding = 2; path = Game.hpp; sourceTree = "<group>"; };
+		46C928401FD0BAF3005F4BC3 /* DeckManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 2; path = DeckManager.cpp; sourceTree = "<group>"; };
+		46C928411FD0BAF3005F4BC3 /* DeckManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; lineEnding = 2; path = DeckManager.hpp; sourceTree = "<group>"; };
+		46C928441FD0CE33005F4BC3 /* FindByRank.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; lineEnding = 2; path = FindByRank.hpp; sourceTree = "<group>"; };
+		46C928461FD0D1C5005F4BC3 /* FindBetweenRanks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 2; path = FindBetweenRanks.cpp; sourceTree = "<group>"; };
+		46C928471FD0D1C5005F4BC3 /* FindBetweenRanks.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; lineEnding = 2; path = FindBetweenRanks.hpp; sourceTree = "<group>"; };
+		46C928491FD0DAB3005F4BC3 /* GameManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 2; path = GameManager.cpp; sourceTree = "<group>"; };
+		46C9284A1FD0DAB3005F4BC3 /* GameManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; lineEnding = 2; path = GameManager.hpp; sourceTree = "<group>"; };
+		46C9284F1FD1028F005F4BC3 /* PotManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 2; path = PotManager.cpp; sourceTree = "<group>"; };
+		46C928501FD1028F005F4BC3 /* PotManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; lineEnding = 2; path = PotManager.hpp; sourceTree = "<group>"; };
+		46C928521FD10365005F4BC3 /* Bet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 2; path = Bet.cpp; sourceTree = "<group>"; };
+		46C928531FD10365005F4BC3 /* Bet.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; lineEnding = 2; path = Bet.hpp; sourceTree = "<group>"; };
+		46C928561FD1095A005F4BC3 /* BetValidityStatus.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; lineEnding = 2; path = BetValidityStatus.hpp; sourceTree = "<group>"; };
+		46C928591FD1C8DC005F4BC3 /* PotManagerDelegate.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; lineEnding = 2; path = PotManagerDelegate.hpp; sourceTree = "<group>"; };
+		46C928641FD1D9B7005F4BC3 /* OddsManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 2; path = OddsManager.cpp; sourceTree = "<group>"; };
+		46C928651FD1D9B7005F4BC3 /* OddsManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; lineEnding = 2; path = OddsManager.hpp; sourceTree = "<group>"; };
+		46C928671FD1E421005F4BC3 /* Util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 2; path = Util.cpp; sourceTree = "<group>"; };
+		46C928681FD1E421005F4BC3 /* Util.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; lineEnding = 2; path = Util.hpp; sourceTree = "<group>"; };
+		46C9286A1FD22AE5005F4BC3 /* LeaderBoard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 2; path = LeaderBoard.cpp; sourceTree = "<group>"; };
+		46C9286B1FD22AE5005F4BC3 /* LeaderBoard.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; lineEnding = 2; path = LeaderBoard.hpp; sourceTree = "<group>"; };
+		46C9286D1FD257CA005F4BC3 /* GameRenderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 2; path = GameRenderer.cpp; sourceTree = "<group>"; };
+		46C9286E1FD257CA005F4BC3 /* GameRenderer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; lineEnding = 2; path = GameRenderer.hpp; sourceTree = "<group>"; };
+		46C928701FD2722D005F4BC3 /* AIManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 2; path = AIManager.cpp; sourceTree = "<group>"; };
+		46C928711FD2722D005F4BC3 /* AIManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; lineEnding = 2; path = AIManager.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46C928271FD0A1A6005F4BC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46C928211FD0A1A6005F4BC3 = {
+			isa = PBXGroup;
+			children = (
+				46C9282C1FD0A1A7005F4BC3 /* AcesDeuces */,
+				46C9282B1FD0A1A7005F4BC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46C9282B1FD0A1A7005F4BC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46C9282A1FD0A1A7005F4BC3 /* AcesDeuces */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46C9282C1FD0A1A7005F4BC3 /* AcesDeuces */ = {
+			isa = PBXGroup;
+			children = (
+				46C9282D1FD0A1A7005F4BC3 /* main.cpp */,
+				46C928341FD0A252005F4BC3 /* Card.cpp */,
+				46C928351FD0A252005F4BC3 /* Card.hpp */,
+				46C928371FD0A58A005F4BC3 /* Hand.cpp */,
+				46C928381FD0A58A005F4BC3 /* Hand.hpp */,
+				46C9283A1FD0A9F9005F4BC3 /* Player.cpp */,
+				46C9283B1FD0A9F9005F4BC3 /* Player.hpp */,
+				46C9283D1FD0BAC0005F4BC3 /* Game.cpp */,
+				46C9283E1FD0BAC0005F4BC3 /* Game.hpp */,
+				46C928401FD0BAF3005F4BC3 /* DeckManager.cpp */,
+				46C928411FD0BAF3005F4BC3 /* DeckManager.hpp */,
+				46C928441FD0CE33005F4BC3 /* FindByRank.hpp */,
+				46C928461FD0D1C5005F4BC3 /* FindBetweenRanks.cpp */,
+				46C928471FD0D1C5005F4BC3 /* FindBetweenRanks.hpp */,
+				46C928491FD0DAB3005F4BC3 /* GameManager.cpp */,
+				46C9284A1FD0DAB3005F4BC3 /* GameManager.hpp */,
+				46C9284F1FD1028F005F4BC3 /* PotManager.cpp */,
+				46C928501FD1028F005F4BC3 /* PotManager.hpp */,
+				46C928521FD10365005F4BC3 /* Bet.cpp */,
+				46C928531FD10365005F4BC3 /* Bet.hpp */,
+				46C928561FD1095A005F4BC3 /* BetValidityStatus.hpp */,
+				46C928591FD1C8DC005F4BC3 /* PotManagerDelegate.hpp */,
+				46C928641FD1D9B7005F4BC3 /* OddsManager.cpp */,
+				46C928651FD1D9B7005F4BC3 /* OddsManager.hpp */,
+				46C928671FD1E421005F4BC3 /* Util.cpp */,
+				46C928681FD1E421005F4BC3 /* Util.hpp */,
+				46C9286A1FD22AE5005F4BC3 /* LeaderBoard.cpp */,
+				46C9286B1FD22AE5005F4BC3 /* LeaderBoard.hpp */,
+				46C9286D1FD257CA005F4BC3 /* GameRenderer.cpp */,
+				46C9286E1FD257CA005F4BC3 /* GameRenderer.hpp */,
+				46C928701FD2722D005F4BC3 /* AIManager.cpp */,
+				46C928711FD2722D005F4BC3 /* AIManager.hpp */,
+				46C243C51FD603C300CAC716 /* WelcomeScreen.cpp */,
+				46C243C61FD603C300CAC716 /* WelcomeScreen.hpp */,
+				46C243C81FD60A3D00CAC716 /* IntroScreenRenderer.cpp */,
+				46C243C91FD60A3D00CAC716 /* IntroScreenRenderer.hpp */,
+			);
+			path = AcesDeuces;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46C928291FD0A1A6005F4BC3 /* AcesDeuces */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46C928311FD0A1A7005F4BC3 /* Build configuration list for PBXNativeTarget "AcesDeuces" */;
+			buildPhases = (
+				46C928261FD0A1A6005F4BC3 /* Sources */,
+				46C928271FD0A1A6005F4BC3 /* Frameworks */,
+				46C928281FD0A1A6005F4BC3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AcesDeuces;
+			productName = AcesDeuces;
+			productReference = 46C9282A1FD0A1A7005F4BC3 /* AcesDeuces */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46C928221FD0A1A6005F4BC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Andrew Wiik";
+				TargetAttributes = {
+					46C928291FD0A1A6005F4BC3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 89SJU56W65;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 46C928251FD0A1A6005F4BC3 /* Build configuration list for PBXProject "AcesDeuces" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 46C928211FD0A1A6005F4BC3;
+			productRefGroup = 46C9282B1FD0A1A7005F4BC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46C928291FD0A1A6005F4BC3 /* AcesDeuces */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46C928261FD0A1A6005F4BC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46C928541FD10365005F4BC3 /* Bet.cpp in Sources */,
+				46C9286F1FD257CA005F4BC3 /* GameRenderer.cpp in Sources */,
+				46C928721FD2722D005F4BC3 /* AIManager.cpp in Sources */,
+				46C9286C1FD22AE5005F4BC3 /* LeaderBoard.cpp in Sources */,
+				46C928421FD0BAF3005F4BC3 /* DeckManager.cpp in Sources */,
+				46C9283C1FD0A9F9005F4BC3 /* Player.cpp in Sources */,
+				46C243CA1FD60A3D00CAC716 /* IntroScreenRenderer.cpp in Sources */,
+				46C928481FD0D1C5005F4BC3 /* FindBetweenRanks.cpp in Sources */,
+				46C9284B1FD0DAB3005F4BC3 /* GameManager.cpp in Sources */,
+				46C928511FD1028F005F4BC3 /* PotManager.cpp in Sources */,
+				46C928661FD1D9B7005F4BC3 /* OddsManager.cpp in Sources */,
+				46C928391FD0A58A005F4BC3 /* Hand.cpp in Sources */,
+				46C9282E1FD0A1A7005F4BC3 /* main.cpp in Sources */,
+				46C928361FD0A252005F4BC3 /* Card.cpp in Sources */,
+				46C9283F1FD0BAC0005F4BC3 /* Game.cpp in Sources */,
+				46C243C71FD603C300CAC716 /* WelcomeScreen.cpp in Sources */,
+				46C928691FD1E421005F4BC3 /* Util.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		46C9282F1FD0A1A7005F4BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		46C928301FD0A1A7005F4BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		46C928321FD0A1A7005F4BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 89SJU56W65;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46C928331FD0A1A7005F4BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 89SJU56W65;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46C928251FD0A1A6005F4BC3 /* Build configuration list for PBXProject "AcesDeuces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46C9282F1FD0A1A7005F4BC3 /* Debug */,
+				46C928301FD0A1A7005F4BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46C928311FD0A1A7005F4BC3 /* Build configuration list for PBXNativeTarget "AcesDeuces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46C928321FD0A1A7005F4BC3 /* Debug */,
+				46C928331FD0A1A7005F4BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46C928221FD0A1A6005F4BC3 /* Project object */;
+}
